@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+form {
+    width: 100%;
+    height: auto;
+    margin: 2em auto;
+    padding: 10px;
+    max-width: 600px;
+    min-width: 200px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+
+.container {
+    padding-top: 25px;
+    margin: 10px;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #467418;
+}
+
+p {
+    text-align: center;
+    color: #5e5f5d;
+}
+
+hr {
+    border: 1px solid #b4b1b1;
+}
+
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    width: 100%;
+    padding: 15px 5px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+label {
+    color: #686666;
+    font-weight: 600;
+}
+
+.remember-me {
+    margin-top: 15px;
+    font-weight: 300;
+    font-style: italic;
+    display: inline-block;
+}
+
+.btn-group {
+    width: 100%;
+    margin: 10px auto;
+    padding-top: 10px;
+    display: flex;
+}
+
+.btn-signup,
+.btn-cancel {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fafafa;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn-signup {
+    background-color: #1a8128;
+}
+
+.btn-signup:hover {
+    background-color:#29a033
+}
+
+
+.btn-cancel {
+    background-color: #f70a0a;   
+}
+
+.btn-cancel:hover {
+    background-color:#df5555
+}
+
+.create-account {
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+    color: #1a8128;
+}
+
+a:hover {
+    color:#56cf66;
+}
+
+
+
